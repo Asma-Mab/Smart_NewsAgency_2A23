@@ -1,0 +1,10 @@
+debug/article.o
+debug/event.o
+debug/form.o
+debug/main.o
+debug/mainwindow.o
+debug/connexion.o
+debug/login.o
+debug/moc_form.o
+debug/moc_mainwindow.o
+debug/moc_login.o

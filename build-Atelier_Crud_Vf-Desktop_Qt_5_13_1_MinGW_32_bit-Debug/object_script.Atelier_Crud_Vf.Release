@@ -1,0 +1,10 @@
+release/article.o
+release/event.o
+release/form.o
+release/main.o
+release/mainwindow.o
+release/connexion.o
+release/login.o
+release/moc_form.o
+release/moc_mainwindow.o
+release/moc_login.o
