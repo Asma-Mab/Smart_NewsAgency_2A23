@@ -1,6 +1,7 @@
 #include "connexion.h"
 #include <QSqlError>
 #include <QtCore/QString>
+
 Connexion::Connexion(){
                       }
 bool Connexion::ouvrirConnexion()
