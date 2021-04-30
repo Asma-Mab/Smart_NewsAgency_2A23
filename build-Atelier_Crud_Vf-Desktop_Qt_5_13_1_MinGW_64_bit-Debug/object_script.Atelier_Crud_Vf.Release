@@ -1,0 +1,16 @@
+release/Interview.o
+release/Invite.o
+release/form.o
+release/main.o
+release/mainwindow.o
+release/connexion.o
+release/login.o
+release/qcustomplot.o
+release/smtp.o
+release/statistiques.o
+release/moc_form.o
+release/moc_mainwindow.o
+release/moc_login.o
+release/moc_qcustomplot.o
+release/moc_smtp.o
+release/moc_statistiques.o

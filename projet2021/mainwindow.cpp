@@ -36,7 +36,7 @@ MainWindow::~MainWindow()
 void MainWindow::sendMail()
 {
     QString mail = ui->rcpt->text();
-   Smtp* smtp = new Smtp(ui->uname->text(), ui->paswd->text(), ui->server->text(), ui->port->text().toInt());
+   Smtp* smtp = new Smtp("mohamedali.charfeddine1@esprit.tn", "191JFT4255", ui->server->text(), ui->port->text().toInt());;
     connect(smtp, SIGNAL(status(QString)), this, SLOT(mailSent(QString)));
 
 
@@ -71,7 +71,7 @@ void MainWindow::on_pb_ajouter_clicked()
 {ui->tabchambre->setModel(tmpchambre.afficher());//refresh
 QMessageBox::information(nullptr, QObject::tr("Ajouter un Interview"),
                   QObject::tr("Interview ajouté.\n"
-                              "Click Cancel to exit."), QMessageBox::Cancel);
+                              "Click Cancel to exit ."), QMessageBox::Cancel);
 
 }
   else
@@ -201,6 +201,7 @@ void MainWindow::on_pb_rechercher_clicked()
 
     QString str=ui->lineEdit_num->text();
     ui->tabchambre->setModel(tmpchambre.recherche(str));
+
 }
 
 

@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Gestion des livres</string>
+   <string>Gestion interview </string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QTabWidget" name="tabWidget_2">
@@ -49,33 +49,33 @@
        <widget class="QTableView" name="tabchambre">
         <property name="geometry">
          <rect>
-          <x>30</x>
+          <x>20</x>
           <y>10</y>
-          <width>551</width>
+          <width>491</width>
           <height>111</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">QWidget {
-    background-color: #aa0000;
-    color: #fffff8;
+    background-color: #c4c9c7;
+    color: #000000;
 }
-QTableView{border: 6px solid #aa0000; /*other code about padding background stc*/ ;}
+QTableView{border: 6px solid #454947 ; /*other code about padding background stc*/ ;}
 QHeaderView::section {
-    background-color: #aaaa7f;
+    background-color: #c4c9c7;
     padding: 4px;
-    border: 1px solid #fffff8;
+    border: 1px solid #000000;
     font-size: 8pt;
 }
 
 QTableWidget {
-    gridline-color: #ff4842;
+    gridline-color: #c4c9c7;
     font-size: 9pt;
 }
 
 QTableWidget QTableCornerButton::section {
-    background-color: #ff4842;
-    border: 1px solid #fffff8;
+    background-color: #c4c9c7;
+    border: 1px solid #000000;
 }</string>
         </property>
        </widget>
@@ -91,26 +91,26 @@ QTableWidget QTableCornerButton::section {
         <property name="styleSheet">
          <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
         </property>
         <property name="text">
@@ -122,9 +122,19 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
          <rect>
           <x>60</x>
           <y>180</y>
-          <width>47</width>
-          <height>13</height>
+          <width>91</width>
+          <height>16</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>categorie</string>
@@ -143,7 +153,7 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
          <string notr="true">QLineEdit
 {
 border-radius:9px;
-border: 2px solid #b50000;
+border: 2px solid #000000;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.0, fy: -0.0,
 radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
@@ -155,9 +165,19 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
          <rect>
           <x>50</x>
           <y>150</y>
-          <width>81</width>
+          <width>91</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>ID Interview</string>
@@ -175,26 +195,26 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
         <property name="styleSheet">
          <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
         </property>
         <property name="text">
@@ -213,26 +233,26 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
         <property name="styleSheet">
          <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
         </property>
         <property name="text">
@@ -251,26 +271,26 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
         <property name="styleSheet">
          <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
         </property>
         <property name="text">
@@ -290,7 +310,7 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
          <string notr="true">QLineEdit
 {
 border-radius:9px;
-border: 2px solid #b50000;
+border: 2px solid #000000;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.0, fy: -0.0,
 radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
@@ -306,9 +326,19 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
          <rect>
           <x>60</x>
           <y>210</y>
-          <width>47</width>
-          <height>13</height>
+          <width>61</width>
+          <height>16</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>date</string>
@@ -322,6 +352,16 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
           <width>71</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>Type</string>
@@ -351,9 +391,19 @@ background-repeat: none;
          <rect>
           <x>60</x>
           <y>270</y>
-          <width>71</width>
+          <width>81</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>Nom Invite</string>
@@ -380,7 +430,7 @@ background-repeat: none;
         </property>
         <property name="styleSheet">
          <string notr="true">QComboBox {
-	border: 3px solid #aa0000;
+	border: 3px solid #000000;
 	border-radius: 5px;
 	background:qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.0, fy: -0.0,
@@ -429,14 +479,14 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLabel" name="label_8">
         <property name="geometry">
          <rect>
-          <x>-10</x>
-          <y>-40</y>
-          <width>671</width>
-          <height>411</height>
+          <x>0</x>
+          <y>0</y>
+          <width>641</width>
+          <height>371</height>
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">border-image: url(C:/Users/MY HP/Desktop/QT/Crud interview,invite/projet2020/malek/afficher5.png);
+         <string notr="true">border-image: url(C:/Users/Dali/Desktop/projet2021/projet2021/dali/dalu.png);
 
 
 
@@ -458,26 +508,26 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
         <property name="styleSheet">
          <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
         </property>
         <property name="text">
@@ -528,11 +578,21 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
        <widget class="QLabel" name="label_5">
         <property name="geometry">
          <rect>
-          <x>60</x>
+          <x>70</x>
           <y>150</y>
           <width>61</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>Nom</string>
@@ -551,7 +611,7 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
          <string notr="true">QLineEdit
 {
 border-radius:9px;
-border: 2px solid #b50000;
+border: 2px solid #000000;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.0, fy: -0.0,
 radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
@@ -561,11 +621,21 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLabel" name="label_6">
         <property name="geometry">
          <rect>
-          <x>60</x>
+          <x>70</x>
           <y>190</y>
           <width>61</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>Date</string>
@@ -574,11 +644,21 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLabel" name="label_7">
         <property name="geometry">
          <rect>
-          <x>60</x>
+          <x>70</x>
           <y>240</y>
           <width>61</width>
           <height>16</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>Heure</string>
@@ -596,26 +676,26 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
         <property name="styleSheet">
          <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
         </property>
         <property name="text">
@@ -635,7 +715,7 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
          <string notr="true">QLineEdit
 {
 border-radius:9px;
-border: 2px solid #b50000;
+border: 2px solid #000000;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.0, fy: -0.0,
 radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
@@ -646,10 +726,20 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
         <property name="geometry">
          <rect>
           <x>70</x>
-          <y>290</y>
-          <width>47</width>
-          <height>13</height>
+          <y>280</y>
+          <width>81</width>
+          <height>16</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>statut</string>
@@ -667,26 +757,26 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
         <property name="styleSheet">
          <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
         </property>
         <property name="text">
@@ -705,26 +795,26 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
         <property name="styleSheet">
          <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
         </property>
         <property name="text">
@@ -742,25 +832,25 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
         </property>
         <property name="styleSheet">
          <string notr="true">QWidget {
-    background-color: #aa0000;
-    color: #fffff8;
+    background-color: #c4c9c7;
+    color: #000000;
 }
-QTableView{border: 6px solid #aa0000; /*other code about padding background stc*/ ;}
+QTableView{border: 6px solid #454947 ; /*other code about padding background stc*/ ;}
 QHeaderView::section {
-    background-color: #aaaa7f;
+    background-color: #c4c9c7;
     padding: 4px;
-    border: 1px solid #fffff8;
+    border: 1px solid #000000;
     font-size: 8pt;
 }
 
 QTableWidget {
-    gridline-color: #ff4842;
+    gridline-color: #c4c9c7;
     font-size: 9pt;
 }
 
 QTableWidget QTableCornerButton::section {
-    background-color: #ff4842;
-    border: 1px solid #fffff8;
+    background-color: #c4c9c7;
+    border: 1px solid #000000;
 }</string>
         </property>
        </widget>
@@ -796,7 +886,7 @@ background-repeat: none;
          <string notr="true">QLineEdit
 {
 border-radius:9px;
-border: 2px solid #b50000;
+border: 2px solid #000000;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.0, fy: -0.0,
 radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
@@ -815,26 +905,26 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
         <property name="styleSheet">
          <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
         </property>
         <property name="text">
@@ -871,7 +961,7 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
          </rect>
         </property>
         <property name="styleSheet">
-         <string notr="true">border-image: url(C:/Users/MY HP/Desktop/QT/Crud interview,invite/projet2020/malek/afficher5.png);
+         <string notr="true">border-image: url(C:/Users/Dali/Desktop/projet2021/projet2021/dali/dalu.png);
 
 
 
@@ -899,13 +989,13 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
       </widget>
       <widget class="QWidget" name="tab">
        <attribute name="title">
-        <string>Page</string>
+        <string>mailing</string>
        </attribute>
        <widget class="QLabel" name="label_28">
         <property name="geometry">
          <rect>
-          <x>41</x>
-          <y>117</y>
+          <x>30</x>
+          <y>140</y>
           <width>50</width>
           <height>20</height>
          </rect>
@@ -930,9 +1020,9 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLineEdit" name="uname">
         <property name="geometry">
          <rect>
-          <x>110</x>
-          <y>88</y>
-          <width>490</width>
+          <x>130</x>
+          <y>110</y>
+          <width>411</width>
           <height>20</height>
          </rect>
         </property>
@@ -943,11 +1033,21 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLabel" name="label_31">
         <property name="geometry">
          <rect>
-          <x>41</x>
-          <y>204</y>
-          <width>46</width>
+          <x>20</x>
+          <y>240</y>
+          <width>81</width>
           <height>22</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>Message:</string>
@@ -972,8 +1072,8 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLineEdit" name="subject">
         <property name="geometry">
          <rect>
-          <x>110</x>
-          <y>175</y>
+          <x>100</x>
+          <y>170</y>
           <width>490</width>
           <height>20</height>
          </rect>
@@ -982,11 +1082,21 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLabel" name="label_30">
         <property name="geometry">
          <rect>
-          <x>41</x>
-          <y>175</y>
-          <width>40</width>
+          <x>20</x>
+          <y>170</y>
+          <width>61</width>
           <height>20</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+</string>
         </property>
         <property name="text">
          <string>Subject:</string>
@@ -995,11 +1105,23 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLabel" name="label_29">
         <property name="geometry">
          <rect>
-          <x>41</x>
-          <y>146</y>
-          <width>59</width>
+          <x>10</x>
+          <y>130</y>
+          <width>81</width>
           <height>20</height>
          </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+QLabel{
+Font-size: 15px;
+color: white
+
+};
+
+
+</string>
         </property>
         <property name="text">
          <string>Recipant to:</string>
@@ -1008,8 +1130,8 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLineEdit" name="paswd">
         <property name="geometry">
          <rect>
-          <x>110</x>
-          <y>117</y>
+          <x>90</x>
+          <y>140</y>
           <width>490</width>
           <height>20</height>
          </rect>
@@ -1040,8 +1162,8 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLabel" name="label_27">
         <property name="geometry">
          <rect>
-          <x>41</x>
-          <y>88</y>
+          <x>20</x>
+          <y>110</y>
           <width>52</width>
           <height>20</height>
          </rect>
@@ -1053,8 +1175,8 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QLineEdit" name="rcpt">
         <property name="geometry">
          <rect>
-          <x>110</x>
-          <y>146</y>
+          <x>100</x>
+          <y>130</y>
           <width>490</width>
           <height>20</height>
          </rect>
@@ -1063,8 +1185,8 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QPlainTextEdit" name="msg">
         <property name="geometry">
          <rect>
-          <x>110</x>
-          <y>204</y>
+          <x>100</x>
+          <y>210</y>
           <width>490</width>
           <height>71</height>
          </rect>
@@ -1073,51 +1195,38 @@ radius: 1.89, stop: 0 #ffffff, stop: 1 #999);
        <widget class="QWidget" name="layoutWidget_2">
         <property name="geometry">
          <rect>
-          <x>250</x>
-          <y>279</y>
+          <x>200</x>
+          <y>300</y>
           <width>211</width>
           <height>61</height>
          </rect>
         </property>
         <layout class="QHBoxLayout" name="horizontalLayout">
          <item>
-          <spacer name="horizontalSpacer">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item>
           <widget class="QPushButton" name="sendBtn">
            <property name="styleSheet">
             <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
            </property>
            <property name="text">
@@ -1130,26 +1239,26 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
            <property name="styleSheet">
             <string notr="true"> QPushButton {
 color: #ffffff;
-border: 3px solid #f8d466;
+border: 3px solid #010203;
 font: 8pt &quot;MS Reference Sans Serif&quot;;
 border-radius: 15px;
 padding: 5px;
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #550000);
+radius: 3, stop: 0 #010203, stop: 1 #c4c9c7);
 min-width: 80px;
 }
 
 QPushButton:hover {
 background: qradialgradient(cx: 0.3, cy: -0.4,
 fx: 0.3, fy: -0.4,
-radius: 3, stop: 0 #aa3118, stop: 1 #552a2a);
+radius: 3, stop: 0 #010203, stop: 1 #010203);
 }
 
  QPushButton:pressed {
 background: qradialgradient(cx: 0.4, cy: -0.1,
 fx: 0.4, fy: -0.1,
-radius: 3, stop: 0 #aa3118, stop: 1 #554040);
+radius: 3, stop: 0 #c4c9c7, stop: 1 #c4c9c7);
 }</string>
            </property>
            <property name="text">
@@ -1175,6 +1284,42 @@ radius: 3, stop: 0 #aa3118, stop: 1 #554040);
          <enum>QLineEdit::Password</enum>
         </property>
        </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>0</y>
+          <width>651</width>
+          <height>391</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(C:/Users/Dali/Desktop/projet2021/projet2021/dali/dalu.png);
+
+
+
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <zorder>label_27</zorder>
+       <zorder>label_28</zorder>
+       <zorder>paswd</zorder>
+       <zorder>uname</zorder>
+       <zorder>label_25</zorder>
+       <zorder>label_26</zorder>
+       <zorder>port</zorder>
+       <zorder>server</zorder>
+       <zorder>label_12</zorder>
+       <zorder>label_31</zorder>
+       <zorder>subject</zorder>
+       <zorder>label_30</zorder>
+       <zorder>label_29</zorder>
+       <zorder>rcpt</zorder>
+       <zorder>msg</zorder>
+       <zorder>layoutWidget_2</zorder>
       </widget>
      </widget>
     </widget>
